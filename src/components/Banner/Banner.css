@@ -1,0 +1,14 @@
+.banner {
+    /* background-image: url("../../images/bg.png") !important; */
+    height: 380px;
+    margin: 0% 14% 0% 14% !important;
+    padding: 0 !important;
+    color: #393a3a;
+    font-size: 18px;
+  }
+  
+  @media (min-width: 576px) {
+    .banner {
+      font-size: calc(10px + 13 * (100vw - 320px) / 800);
+    }
+  }
